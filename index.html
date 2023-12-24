@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/e67d3817f5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="copy.png" alt="">
+                
+                
+               
+            
+                <ul id="sidemenu">
+                   <li> <input type="search" name="" id="" placeholder="Search" style="width: 120%;padding: 8px;border-radius: 50px;"></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span><b>Amrit </b></span> <br><i>A C Bright Symon Mohanty</i> <br>From India</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- .............about  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_20231117_133250_354.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima qui eius perspiciatis,
+                        dolorem aliquid hic libero dolores quibusdam? Expedita eum inventore exercitationem autem
+                        nam. Tempore quidem tenetur in aperiam nulla.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('additional skills')">Additional Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>Web app developement</li>
+                            <li><span>App Developement</span><br>Android app developement</li>
+                            <li><span>Programing Language</span><br><li>C</li> 
+                            <li>Java</li>
+                            <li>SQL</li>
+                            <li>Oracle</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScripy</li>
+                            <li>Python</li>
+                         
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="additional skills">
+                        <ul>
+
+                            <li><span>Other Skills</span><br><li>MS Office</li> 
+                            <li>Adobe Photoshop Ps</li>
+                            <li>Adobe Premier Prp Pr</li>
+                            <li>Adobe Lightroom Lr</li>
+                            <li>Adobe Illustrator Ai</li>
+                            
+                            <li>Python</li>
+                         
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>Artifitial Intelligence By IBM</li>
+                            <li><span>Training</span><br>Fullstack Developement By ERA Digital</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        
+                            <li><span>2022-2024</span><br>Master in Computer Application (MCA) | <b>Siksha 'O' Anusandhan University, Bhubaneswar</b></li>
+                            <li><span>2019-2022</span><br>Bsc.(Botany) | <b>Remuna Degree College, Remuna, Balasore</b> </li>
+                            <li><span>2017-2019</span><br>+2 Science | <b>Jhadesear sc Higher Secondary School, Balasore</b> </li>
+                            <li><span>2019</span><br>10th Standard | <b>Khuluda Shitala Gpv. High School, Jaleswar, Balasore</b> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span><b>Restaurant Management System</b></span><br>HTML | CSS | JavaScript | NODE JS | SQL | Cood <br><p>Collaborated with team meamber to design and develops
+                                an intuitive and friendely Website for <b>Restaurant management System</b> in this i have contributed in the fronted part. </p></li>
+                                <li><span><b>College Management System</b></span><br>Design a DBMS Project Using ER Diagram.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...............services....... -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione expedita hic, assumenda
+                        voluptatibus in inventore, tempore debitis officiis non sit iste commodi veritatis velit
+                        accusantium. Odio in dolorem consequatur.</p>
+                    <a href="https://webflow.com/blog/how-to-learn-web-design">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione expedita hic, assumenda
+                        voluptatibus in inventore, tempore debitis officiis non sit iste commodi veritatis velit
+                        accusantium. Odio in dolorem consequatur.</p>
+                    <a href="https://itlh.in/ui-ux-course?utm_source=google_ads&utm_medium=search&utm_campaign=search-institute-classes-training-uiux&utm_term=ui%20ux%20classes&utm_content=institute-classes-training-ads&gad_source=1&gclid=CjwKCAiAp5qsBhAPEiwAP0qeJllCdpMYIdpKDi6PVqj-rWWHIET78Q33YwAlkIp9Ou8Io5XgJn0uLRoC52UQAvD_BwE">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione expedita hic, assumenda
+                        voluptatibus in inventore, tempore debitis officiis non sit iste commodi veritatis velit
+                        accusantium. Odio in dolorem consequatur.</p>
+                    <a href="https://www.coursera.org/courses?query=app%20design">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...................portfolio....  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            social Media App
+                        </h3>
+                        <p>The app connects you to the most amazing people around the world. Download it from play store
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=com.twitter.android.lite&hl=en&gl=US"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            ToDo's App
+                        </h3>
+                        <p>The app will remember all the things in the list that you are supposed to forget. Download it
+                            from play store
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=com.splendapps.splendo&hl=en_IN&gl=US"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Quote generator App
+                        </h3>
+                        <p>The app generates fantastic quotes from all the greatest freedom fighters and Authors of this
+                            world. Download it from play store
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=com.ist.quotescreator&hl=en&gl=US"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://wpportfolio.net/" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- .............contact...  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>acbrightsymonm@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8455943905</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/acbs.mohanty"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/acbs_sonu22/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/a-c-bright-symon-mohanty-b493a8273/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ A C Bright Symon Mohanty. Made with <i class="fa-solid fa-heart"></i> Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tablink of tabcontents) {
+                tablink.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzDRIqJzKOorXn5oaLyUnoWUy85tuayWYVrUGixPn9CON8M2-HiPzG8I0MzboOW5OUyIw/exec'
+        const form = document.forms['submit-to-google-sheet']
+         const msg=document.getElementById("msg");
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+        form.reset();
+        })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
