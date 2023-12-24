@@ -364,6 +364,10 @@ transition: transform 0.5s;
       font-size: 16px;
       
    }
+   #sidemenu {
+      display:block ;
+      right: -200px;
+   }
    .header-text h1{
       font-size: 30px; 
    }
