@@ -30,7 +30,7 @@ body{
     width: 100px;
     margin-top: 20px;
     border-radius: 50%;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(50, 19, 99);
     
    
 
@@ -354,9 +354,14 @@ transition: transform 0.5s;
    display: none;
  }
  @media only screen and (max-width:600px){
-   
+   *{
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+   }
     #header{
-       background-image: url(images/mob/prof.png);
+      background-image:url(./sprout_fallen_leaves_dark_background_4k_hd_photography.jpg) ;
+      background-size: cover;
 
    }
    .header-text{
@@ -365,8 +370,8 @@ transition: transform 0.5s;
       
    }
    #sidemenu {
-      display:block ;
-      right: -200px;
+      /* display:block ; */
+      right: -500px;
    }
    .header-text h1{
       font-size: 30px; 
@@ -381,7 +386,7 @@ transition: transform 0.5s;
       position: fixed;
       top: 0;
       right: -200px;
-      width: 200px;
+      width: 170px;
       height: fit-content;
       padding-top: 50px;
       z-index: 2;
@@ -416,6 +421,9 @@ transition: transform 0.5s;
    }
    .about-col-2{
       font-size: 14px;
+   }
+   .about-col-2 p{
+      width: 85%;
    }
    .tab-links{
       font-size: 15px;
