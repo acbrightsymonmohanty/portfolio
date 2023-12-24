@@ -11,18 +11,16 @@ body{
 
 }
 #header{
-    height: 180vh;
-    background-image:url(./IMG_20231117_133250_354.jpg) ;
-    background-color: #6c056c;
-    transform: translateY(20px);
-    background-size: cover;
+    height:auto;
+    width: auto;
+    background-image:url(./sprout_fallen_leaves_dark_background_4k_hd_photography.jpg) ;
+    background-size:cover;
     background-position-x: right ;
-    background-size: 30%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: 20%;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 30px;
+    
+    
 
     
     
@@ -36,15 +34,10 @@ body{
     
    
 
-
-
-    
-   
-   
-
 }
 #sidemenu{
-   border-radius: 15px;
+   border-radius: 15px 0 0 15px;
+   
 }
 .container{
     padding: 10px 10%;
@@ -95,7 +88,7 @@ nav ul li a::after{
  }
 
 .header-text h1 span{
-color: #000000;
+color: #fa036e;
 }
  /* ........about  */
  #about{
@@ -361,12 +354,13 @@ transition: transform 0.5s;
    display: none;
  }
  @media only screen and (max-width:600px){
+   
     #header{
-       background-image: url(images/mob\ prof.png);
+       background-image: url(images/mob/prof.png);
 
    }
    .header-text{
-      margin-top: 100%;
+      /* margin-top: 100%; */
       font-size: 16px;
       
    }
@@ -384,11 +378,16 @@ transition: transform 0.5s;
       top: 0;
       right: -200px;
       width: 200px;
-      height: 100vh;
+      height: fit-content;
       padding-top: 50px;
       z-index: 2;
       transition: right 0.5s;
+      right: 0;
 
+   }
+
+   nav ul:active{
+      right: 0;
    }
    nav ul li{
       display: block;
