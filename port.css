@@ -16,13 +16,13 @@ body{
     background: #080808;
     color: #fff;
     #massage{
-      background-color: rgb(2, 2, 48);
-      padding: 10px;
+      background-color: rgb(37, 16, 104);
+      padding: 8px;
       margin-top: 5px;
-      margin-left: 100px;
-      margin-right: 100px;
-      border-radius: 0 0 20px 20px;
-      border: solid green;
+      margin-left: 20px;
+      margin-right: 20px;
+      border-radius:50px;
+      border: solid rgb(241, 244, 241);
    }
 
 }
