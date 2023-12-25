@@ -4,12 +4,28 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
-
+#massage{
+   background-color: rgb(2, 2, 48);
+   padding: 10px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius: 0 0 20px 20px;
+   border: solid green;
+}
 body{
     background: #080808;
     color: #fff;
+    #massage{
+      background-color: rgb(2, 2, 48);
+      padding: 10px;
+      margin-left: 100px;
+      margin-right: 100px;
+      border-radius: 0 0 20px 20px;
+      border: solid green;
+   }
 
 }
+
 #header{
     height:auto;
     width: auto;
