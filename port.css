@@ -29,8 +29,8 @@ body{
 h2{
    position: relative;
    font-size: 100%;
-   color: #f4f5f9;
-   -webkit-text-stroke:  #f4f5f9;
+   color: #0c0d11;
+   -webkit-text-stroke:  #0a0b0f;
    text-transform: uppercase;
 }
 h2::before{
