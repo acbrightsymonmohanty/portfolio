@@ -26,7 +26,33 @@ body{
    }
 
 }
+h2{
+   position: relative;
+   font-size: 100%;
+   color: #0a0b0f;
+   -webkit-text-stroke:  #1b1d27;
+   text-transform: uppercase;
+}
+h2::before{
+   content: attr(data-text);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0%;
+   color: #fc04be;
+   
+   overflow: hidden;
+   animation: animate 3s linear infinite;
+}
+@keyframes animate{
+   0%,10%,100%{
+      width: 0;
 
+   }
+   50%,90%{
+      width: 50%;
+   }
+}
 #header{
     height:auto;
     width: auto;
@@ -36,7 +62,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: 20%;
-    
+       
     
 
     
