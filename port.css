@@ -29,8 +29,8 @@ body{
 h2{
    position: relative;
    font-size: 100%;
-   color: #0a0b0f;
-   -webkit-text-stroke:  #1b1d27;
+   color: #f4f5f9;
+   -webkit-text-stroke:  #f4f5f9;
    text-transform: uppercase;
 }
 h2::before{
@@ -38,19 +38,19 @@ h2::before{
    position: absolute;
    top: 0;
    left: 0;
-   width: 0%;
-   color: #fc04be;
+   width: 50%;
+   color: #0480fc;
    
    overflow: hidden;
-   animation: animate 3s linear infinite;
+   animation: animate 2s linear infinite;
 }
 @keyframes animate{
    0%,10%,100%{
       width: 0;
 
    }
-   50%,90%{
-      width: 50%;
+   70%,90%{
+      width: 65%;
    }
 }
 #header{
